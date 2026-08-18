@@ -1,48 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Mayuri's Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; }
-    h1, h2 { color: #2c3e50; }
-    .section { margin-bottom: 30px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f39c12;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #f39c12;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 8px 0;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
   </style>
 </head>
 <body>
-  <h1>Hi, I'm Mayuri 👋</h1>
-  <p>A Computer Science graduate passionate about web development and data analysis.</p>
+  <header>
+    <h1>Hi, I'm Mayuri 👋</h1>
+    <p>Computer Science Graduate | Web Development & Data Analysis Enthusiast</p>
+  </header>
 
-  <div class="section">
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Computer Science graduate passionate about building projects that solve real-world problems. I enjoy learning new technologies and applying them creatively.</p>
+  </section>
+
+  <section id="skills">
     <h2>Skills</h2>
     <ul>
       <li>Python, Java, SQL</li>
       <li>HTML, CSS, JavaScript</li>
       <li>GitHub, Power BI, MS Office</li>
+      <li>Communication, Teamwork, Problem-Solving</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="section">
+  <section id="projects">
     <h2>Projects</h2>
-    <p><b>Student Record Management System:</b> Built with Python and Flask.</p>
-    <p><b>Portfolio Website:</b> Designed with HTML/CSS/JS to showcase academic work.</p>
-  </div>
+    <p><b>Student Record Management System:</b> Built with Python and Flask to manage student records efficiently.</p>
+    <p><b>Portfolio Website:</b> Designed with HTML/CSS/JS to showcase academic work and achievements.</p>
+  </section>
 
-  <div class="section">
+  <section id="education">
     <h2>Education</h2>
     <p>B.Tech in Computer Science, XYZ University, Hyderabad (2026)</p>
-  </div>
+  </section>
 
-  <div class="section">
+  <section id="certifications">
     <h2>Certifications</h2>
-    <p>AWS Cloud Practitioner – Amazon (2025)</p>
-    <p>Python for Everybody – Coursera (2024)</p>
-  </div>
+    <ul>
+      <li>AWS Cloud Practitioner – Amazon (2025)</li>
+      <li>Python for Everybody – Coursera (2024)</li>
+    </ul>
+  </section>
 
-  <div class="section">
+  <section id="contact">
     <h2>Contact</h2>
     <p>Email: mayuri@example.com</p>
     <p>LinkedIn: linkedin.com/in/mayuri</p>
     <p>GitHub: github.com/mayuri</p>
-  </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Mayuri | Built with ❤️ using GitHub Pages</p>
+  </footer>
 </body>
 </html>
